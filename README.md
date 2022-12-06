@@ -59,7 +59,12 @@ Finally, I subtracted each country's gas price per gallon in CAD from Canada's a
 I made two visualisations for my data:
 
 * a bar chart to show the petrol price differences between Canada and other countries in my data using the *barh* method:
+
 ![Bar Chart of Price Differences](bar chart of price differences.png)
+
+* a scatter plot to see the correlation between GDP per capita and price differences using the *scatter* method:
+
+
 
 
 
