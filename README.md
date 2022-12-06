@@ -59,10 +59,19 @@ Finally, I subtracted each country's gas price per gallon in CAD from Canada's a
 I made two visualisations for my data:
 
 * a bar chart to show the petrol price differences between Canada and other countries in my data using the *barh* method:
+Some interesting observations from this chart is that Poland has a very similar petrol price per gallon to Canada while petrol prices are highest in Norway and lowest in Libya. 
 
-![Bar Chart of Price Differences](bar chart of price differences.png)
+![Bar Chart of Price Differences](bar chart of price differences.png "Bar Chart of Price Differences")
 
 * a scatter plot to see the correlation between GDP per capita and price differences using the *scatter* method:
+At first glance, we see a negative correlation between the two variables.
+
+![Scatter Plot](Scatter plot.png "Scatter Plot")
+
+## Analysis :
+
+
+
 
 
 
