@@ -49,7 +49,7 @@ Getting the original currencies now was easy, I multiplied the exchange rate col
 
 Now that I had a table with gas prices and GDP per capita in both CAD and original currencies, all I needed to do was join the currency codes to the table and calculate gas price differences of each country relative to Canada.
 
-While I joined currency codes, I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful final table.
+While I joined currency codes, I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful table.
 
 Finally, I subtracted each country's gas price per gallon in CAD from Canada's and added the price difference column to make the final version of my table.
 
