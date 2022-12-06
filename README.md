@@ -72,6 +72,14 @@ At first glance, we see a negative correlation between the two variables.
 
 ## Analysis :
 
+Finally, for finding the strength of the correlation, I caluclated the correlation coefficient for GDP per capita and price differences and got a value of about -0.598, which shows a moderately strong negative correlation.
+
+So, gas prices seem to be higher in countries whith higher GDP per capita and vice versa. 
+
+# Conclusion:
+
+
+
 
 
 
