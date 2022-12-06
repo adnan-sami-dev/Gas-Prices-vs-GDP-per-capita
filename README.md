@@ -78,6 +78,14 @@ So, gas prices seem to be higher in countries whith higher GDP per capita and vi
 
 # Conclusion:
 
+It seems countries with higher GDP per capita than Canada have higher petrol prices per gallon and vice versa. However, since this is a correlation study, where we haven't taken into account other variables such as global gas trade and world politics, taxes and other factors, we can't say higher GDP per capita leads to companies charging higher gas prices. There are many such variables to consider, but at least this is a start.
+
+Interesting observations from the bar chart would be how colder countries in general have higher gas prices while warmer countries have lower, as we see with Norway having the highest petrol price per gallon and Libya, the lowest. 
+
+I had a hard time figuring out how to remove the commas from my GDP per capita vlaues, but after several tries, I finally decided to split each value around the commas and concatenate the split parts.
+
+Looking back, I could have used a live time exchange rate website for my USD to CAD conversion, like I did with my original currenies, to make my results more precise in the longer run. 
+
 
 
 
