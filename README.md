@@ -14,7 +14,7 @@ For those who don't know, PPP is :
 Petrol or gas is one of the most basic needs for most people around the globe, because everyone needs vehicles for transportation. This analysis will compare petrol prices of various countries relative to Canada and test a possible factor that could explain the differences.
 
 
-## Possible Factor :
+## Factor :
 
 I chose GDP per capita (in simple terms - the "richness" of it's population ) as a possible factor because it's probably one of the first things that come to mind when thinking why a product's price may be different in different countries.
 
@@ -27,9 +27,10 @@ I will give a concise explanation of how I got my data and cleaned it before vis
 
 First, I scraped the GDP per capita table from [Macrotrends](https://www.macrotrends.net/countries/ranking/gdp-per-capita) and imported the petrol prices dataset which I downloaded from [Kaggle](https://www.kaggle.com/datasets/zusmani/petrolgas-prices-worldwide). Then I joined them  based on the countries they had in common to form my "main" table. 
 
+
 ### 2. Cleaning the data :
 
-I only kept the GDP per capita for 2021 and dropped the previous years' ones, since that was the most recent, and for the petrol prices, I only kept the price per gallon, since the values were larger than price per liter and it's easier on the eyes to visualise larger values than smaller decimals. 
+I only kept the GDP per capita for 2021 and dropped the previous years' ones, since that was the most recent, and for the petrol prices, I only kept the price per gallon column, since the values were larger than the price per liter column, and it's easier on the eyes to visualise larger values than smaller decimals. 
 
 The GDP per capita column had string values with "$" signs in front of the numbers and "," within the larger numbers, so I stripped the dollar signs from them, and converted them to integers after removing the commas. 
 
@@ -58,19 +59,19 @@ Finally, I subtracted each country's gas price per gallon in CAD from Canada's a
 
 I made two visualisations for my data:
 
-* a bar chart to show the petrol price differences between Canada and other countries in my data using the *barh* method:
+* a **bar chart** to show the petrol price differences between Canada and other countries in my data using the *barh* method:
 
 Some interesting observations from this chart is that Poland has a very similar petrol price per gallon to Canada while petrol prices are highest in Norway and lowest in Libya. 
 
 ![Bar Chart of Price Differences](bar chart of price differences.png "Bar Chart of Price Differences")
 
-* a scatter plot to see the correlation between GDP per capita and price differences using the *scatter* method:
+* a **scatter plot** to see the correlation between GDP per capita and price differences using the *scatter* method:
 
 At first glance, we see a negative correlation between the two variables.
 
 ![Scatter Plot](Scatter plot.png "Scatter Plot")
 
-## Analysis :
+# Analysis :
 
 Finally, for finding the strength of the correlation, I caluclated the correlation coefficient for GDP per capita and price differences and got a value of about -0.598, which shows a moderately strong negative correlation.
 
@@ -87,6 +88,14 @@ I had a hard time figuring out how to remove the commas from my GDP per capita v
 Looking back, I could have used a live time exchange rate website for my USD to CAD conversion, like I did with my original currenies, to make my results more precise in the longer run. 
 
 
+
+# Citations :
+
+Wikipedia page : https://en.wikipedia.org/wiki/Purchasing_power_parity
+GDP per capita data set : https://www.macrotrends.net/countries/ranking/gdp-per-capita
+petrol dataset : https://www.kaggle.com/datasets/zusmani/petrolgas-prices-worldwide
+currencies data set : https://www.countries-ofthe-world.com/world-currencies.html
+exchange rate website : https://www.x-rates.com/table/?from=USD&amount=1
 
 
 
