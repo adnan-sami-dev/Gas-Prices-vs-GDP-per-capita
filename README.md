@@ -47,11 +47,19 @@ Getting the original currencies now was easy, I multiplied the exchange rate col
 
 ### 4. Editing the Final Table and Including Gas Price Differences :
 
-Now that I had a table with gas prices and GDP per capita in both CAD and original currencies, all I needed to do was join the currency codes to the table and calculate gas price differences of each country relative to Canada.
+Now that I had a table with gas prices and GDP per capita in both CAD and original currencies, all I needed to do was join the currency codes to the table and calculate gas price differences of each country relative to Canada. 
 
-While I joined currency codes, I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful table.
+While I joined currency codes, I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful table. I also dropped any irrelevant columns such as currency names (since I had a column dedicated to currency cides) and so on. And since my GDP per capita numbers had many zeroe converted them to be in tens of thousands of dollars, so that my graphs would look more clean. 
 
 Finally, I subtracted each country's gas price per gallon in CAD from Canada's and added the price difference column to make the final version of my table.
+
+
+## Visualisation :
+
+I made two visualisations for my data:
+
+* a bar chart to show the petrol price differences between Canada and other countries in my data using the *barh* method:
+
 
 
 
