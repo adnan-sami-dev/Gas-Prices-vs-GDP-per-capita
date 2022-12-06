@@ -56,7 +56,7 @@ Then I tried to join my exchange rate table with the main table, but that wasn't
 
 Getting the original currencies now was easy, I multiplied the exchange rate column to the petrol price and GDP per capita columns. 
 
-![Calculate original curr values](calculate originall curr values.png "Calculate original curr values")
+![Calculate original curr values](calculate original curr values.png "Calculate original curr values")
 
 ### 4. Cleaning the Final Table and Including Gas Price Differences :
 
