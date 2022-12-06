@@ -79,7 +79,7 @@ I made two visualisations for my data:
 
 Some interesting observations from this chart is that Poland has a very similar petrol price per gallon to Canada while petrol prices are highest in Norway and lowest in Libya. 
 
-![Bar Chart](bar chart.png "Bar Chart")
+![Bar Chart](bar chart .png "Bar Chart")
 
 * a **scatter plot** to see the correlation between GDP per capita and price differences using the *scatter* method:
 
