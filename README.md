@@ -56,11 +56,13 @@ Then I tried to join my exchange rate table with the main table, but that wasn't
 
 Getting the original currencies now was easy, I multiplied the exchange rate column to the petrol price and GDP per capita columns. 
 
-![Updated table 1](updated table 1.png "Updated table 1")
+![Calculate original curr values](calculate originall curr values.png "Calculate original curr values")
 
 ### 4. Cleaning the Final Table and Including Gas Price Differences :
 
 I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful table. I also dropped any irrelevant columns such as currency names (since I had a column dedicated to currency cides) and so on. And since my GDP per capita numbers had many zeroes in their values, I converted them to be in tens of thousands of dollars, so that my graphs would look more clean. 
+
+![Updated table 1](updated table 1.png "Updated table 1")
 
 Now that I had a table with gas prices and GDP per capita in both CAD and original currencies, all I needed to do was calculate gas price differences of each country relative to Canada. 
 
