@@ -60,7 +60,7 @@ Getting the original currencies now was easy, I multiplied the exchange rate col
 
 ### 4. Cleaning the Final Table and Including Gas Price Differences :
 
-I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful table. I also dropped any irrelevant columns such as currency names (since I had a column dedicated to currency cides) and so on. And since my GDP per capita numbers had many zeroes in their values, I converted them to be in tens of thousands of dollars, so that my graphs would look more clean. 
+I noticed some countries had a 0 GDP per capita and that was absurd so I removed such values to get a more meaningful table. I also dropped any irrelevant columns such as currency names (since I had a column dedicated to currency codes) and so on. And since my GDP per capita numbers had many zeroes in their values, I converted them to be in tens of thousands of dollars, so that my graphs would look more clean. 
 
 ![Updated table 1](updated table 1.png "Updated table 1")
 
@@ -89,7 +89,7 @@ At first glance, we see a negative correlation between the two variables.
 
 # Analysis :
 
-Finally, for finding the strength of the correlation, I caluclated the correlation coefficient for GDP per capita and price differences and got a value of about -0.598, which shows a moderately strong negative correlation.
+Finally, for finding the strength of the correlation, I calculated the correlation coefficient for GDP per capita and price differences and got a value of about -0.598, which shows a strong negative correlation.
 
 So, gas prices seem to be higher in countries whith higher GDP per capita and vice versa. 
 
@@ -108,9 +108,13 @@ Looking back, I could have used a live time exchange rate website for my USD to 
 # Citations :
 
 Wikipedia page : https://en.wikipedia.org/wiki/Purchasing_power_parity
+
 GDP per capita data set : https://www.macrotrends.net/countries/ranking/gdp-per-capita
+
 petrol dataset : https://www.kaggle.com/datasets/zusmani/petrolgas-prices-worldwide
+
 currencies data set : https://www.countries-ofthe-world.com/world-currencies.html
+
 exchange rate website : https://www.x-rates.com/table/?from=USD&amount=1
 
 
